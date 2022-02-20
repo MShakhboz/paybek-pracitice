@@ -1,0 +1,215 @@
+.form-navbar {
+    display: flex;
+    padding: 8px 0 7px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.form-navbar-menu {
+    text-decoration: none;
+    margin-left: 50px;
+    align-items: center;
+    padding: 8px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585757;
+}
+
+.form-navbar-menu:hover {
+    color: #0085FF;
+    border-bottom: 1px solid #0085FF;
+}
+
+.activeSendPage {
+    color: #0085FF;
+    border-bottom: 1px solid #0085FF;
+}
+
+.users-container {
+    display: flex;
+    height: calc(100vh - 76px);
+    background-color: #E5E5E5;
+    /* background-origin: border-box; */
+}
+
+.sub-users-container {
+    margin-left: 15px;
+}
+
+.head-line h2 {
+    /* font-weight: 500;
+    font-size: 25px;
+    line-height: 48px; */
+}
+
+.form-container {
+    height: 559px;
+    width: 1015px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 12px 0px 0px 0px;
+}
+
+.user-fill-form {
+    margin: 10px 0 0 100px;
+}
+
+.user-fill-form label {
+    display: block;
+    margin-top: 2px;
+}
+
+.user-fill-form label .form-title {
+    display: inline-block;
+    width: 150px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 48px;
+    color: #1C1C1C;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.main-input {
+    align-items: center;
+    padding: 8px 12px;
+    width: 318px;
+    height: 40px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 8px; 
+}
+
+.title-input {
+    align-items: center;
+    padding: 8px 12px;
+    width: 578px;
+    height: 40px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 8px; 
+}
+
+.message-input {
+    align-items: center;
+    padding: 8px 12px;
+    width: 578px;
+    height: 80px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 8px; 
+}
+
+.user-fill-form .radio-input {
+    height: 25px;
+    width: 25px;
+    margin-right: 30px;
+}
+
+.user-fill-form .schedule-label {
+    display: flex;
+}
+
+.user-form-send-btn {
+    align-items: center;
+    padding: 8px 18px;
+    background: #0085FF;
+    border: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+
+.user-fill-form .upload-image-btn {
+    width: 140px;
+    height: 38px;
+    align-items: center;
+    padding: 8px 12px;
+    background: #8A8D9D;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 25px;   
+}
+
+.user-fill-form .send-test-btn {
+    Width: 140px;
+    Height: 38px;
+    align-items: center;
+    padding: 8px 12px;
+    background: #8A8D9D;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 25px
+}
+.users-container .side-bar-container {
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.users-container .side-bar-container .side-bar-link-box {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 272px;
+    height: 44px;
+    padding-left: 7px;
+}
+
+.side-bar-link-box:first-child {
+    color: #969696;
+}
+
+.users-container .svgIcon {
+    margin-right: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+
+.side-bar-link-box:hover {
+    background-color: #E5F3FF;
+    color: #0085FF;
+}
+
+#active-btn {
+    background-color: #E5F3FF;
+    color: #0085FF;
+}
+
+.side-bar-menue {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
