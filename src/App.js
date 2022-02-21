@@ -37,7 +37,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route element = {<NavLayout />}>
-              <Route path='/home' element = { <Home />} />
+              <Route path='/' element = { <Home />} />
               <Route path="/users" element = { <Users />}>
                 <Route path = "active-users" element = { <Active />}/>
                 <Route path = "inactive-users" element = {<Inactive />} />
@@ -54,7 +54,7 @@ function App() {
               <Route path="/account" element={ <Account /> }/>
               <Route path='/users/push-notification/user-data-table/:id' element = {<UserInfo />} />
             </Route>
-            <Route path="/" element={ <SignIn /> }>
+            <Route path="/sign-in" element={ <SignIn /> }>
               <Route index element = {<PaswValid />} />
               <Route path='pasw-valid' element={ <PaswValid /> }/>
               <Route path='pasw-forgot' element={ <PaswForgot /> }/>
