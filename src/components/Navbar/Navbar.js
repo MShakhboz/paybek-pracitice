@@ -17,7 +17,7 @@ const Navbar = () => {
                 </Link>
        
                 <div className='link'>
-                    <Link to="/">Home</Link>
+                    <Link to="/home">Home</Link>
                     <Link to="/users/push-notification/user-data-table">Users</Link>
                     <Link to="/txns">TXNS</Link>
                     <Link to="/pg">PG</Link>
